@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+.nav-container {
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background-color: var(--golden-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem 1rem;
+    position: fixed;
+    z-index: 999;
+    border-radius: 40px;
+}
+.nav-container .page {
+    display: flex;
+    gap: 24px;
+    animation: nav 2s 1 ease;
+}
+@keyframes nav {
+    from{
+        transform:translatex(-70%);
+        opacity:0;
+    }
+    to{
+        transform:translatex(0);
+        opacity:1;
+    }
+}
+.nav-container .user > .logo {
+    position: relative;
+    top:4px;
+}
+
+.nav-container .user {
+    font-family: "Yesteryear", cursive;
+    font-weight: bold;
+    animation: user 1 2s ease;
+}
+@keyframes user {
+    from {
+        transform: translateX(70%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5rem;
+    position: relative;
+    font-weight: bold;
+    color: var(--light-color);
+}
+.nav-container .link::before{
+    content: "";
+    position: absolute;
+    /* box-shadow: 2px 2px 2px var(--gray-color) ; */
+    width: 100%;
+    height: 3px;
+    background-color: var(--light-color);
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.6s ease;
+}
+.nav-container .link::before { 
+    bottom:0;
+    left: 0;
+}
+.nav-container a:hover::before {
+    transform: scaleX(1);
+}
+.nav-container button a {
+    text-decoration: none;
+    color: var(--golden-color);
+}
+.nav-container button:hover a {
+    color: var(--light-color);
+}
+.nav-container button {
+    padding: 0.4rem 0.8rem;
+    display: inline;
+    border-radius: 40px;
+    font-weight: bold;
+    background-color: var(--light-color);
+    border: 2px solid var(--gray-color);
+    cursor: pointer;
+    box-shadow: 4px 5px 0px var(--gray-color);
+}
+.nav-container button:hover {
+    background-color: var(--golden-color);
+    border: 2px solid var(--light-color);
+    box-shadow: 4px 5px 0px var(--light-color);
+    transition: all 0.6s ease-in-out;
+}
+.nav-container label, .nav-container input {
+    display: none;
+}
+.header-bg{
+    color: red;
+}
+
+/* media query for responsive navigation bar */
+@media screen and (max-width:970px){
+    .nav-container label {
+        display:inline-block;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .close {
+        color: white;
+        transition: all 1s linear;
+        animation: close 0.24s linear 1;
+    }
+    @keyframes close {
+        from {
+            transform: rotate(90deg);
+        }
+        to {
+            transform: rotate(0deg);
+        }
+    }
+    .menu {
+        color: black;
+    }
+     .nav-container input:checked ~.page{
+        left:0;
+    }
+    .nav-container {
+        padding: 10px 20px;
+    }
+    .nav-container .page{
+        position: absolute;
+        top: 58px;
+        left: -150%;
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 40px;
+        transition:all 1s;
+    }
+    .nav-container .link {
+        color: var(--golden-color);
+    }
+}

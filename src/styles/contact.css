@@ -1,0 +1,257 @@
+.contact-container {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 3%;
+}
+.contact-container .heading h1 {
+  bottom: 20%;
+  right: 36%;
+}
+.contact-container :where(label){
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    font-size: 18px;
+}
+::placeholder {
+    color: var(--light-color);
+    opacity: 0.6;
+}
+.contact-container figcaption {
+    width: 90%;
+    min-height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1.5rem 1rem;
+    box-shadow: 0px 0px 4px black;
+    background-color: black;
+}
+.contact-container form {
+    width: 60%;
+}
+.contact-container form section  {
+    display: grid;
+    grid-template-columns: 46% 50%;
+    gap: 3.5%;
+}
+.contact-container figcaption figure {
+    min-width:260px;
+}
+  .title {
+    width: 90%;
+    background-color: black;
+    box-shadow: 0px 0px 4px black;
+    color: var(--light-color);
+    /* font-size: 1.5vmax; */
+    font-weight: bold;
+    padding: 2rem;
+    border-bottom: 2px solid white;
+  }
+  form div input,textarea {
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    color: var(--light-color);
+    font-size: 16px;
+    border: 2px ridge #c4c4c4;
+    padding: 0.6rem 2rem;
+    background: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .contact-container form div {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .contact-container form div .icon {
+    position: absolute;
+    z-index: 99;
+    top: 40px;
+    right: 10px;
+    color: white;
+    opacity: 0.6;
+    font-size: 18px;
+  }
+  .contact-container figcaption  h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .contact-container figure section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contact-container figure section div {
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+ .contact-container input:focus,textarea:focus {
+    border: 2px solid var(--golden-color);
+  }
+
+.failure,
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  font-size: 14.5px;
+  margin-top: 5px;
+}
+.success,
+.failure {
+  right: 0;
+  opacity: 0;
+}
+.contact-container button {
+    margin-top: 15px;
+    width: 60%;
+    background-color: var(--golden-color);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.8rem 0.5rem;
+    position: relative;
+    transition: all 0.1s;
+  }
+  .contact-container button:hover {
+    opacity: 0.8;
+  }
+  .contact-container figcaption figure section div > h2 {
+    font-size: 18px;
+  }
+  .contact-container figcaption figure section div > p {
+    font-size: 15px;
+  }
+  .contact-container figcaption figure section div:hover {
+    color: var(--golden-color);
+  }
+  .contact-container figcaption figure aside > h4{
+    color: white;
+    padding: 2rem 1rem;
+  }
+  .contact-container figcaption figure aside p{
+    border: 2px solid white;
+    display: inline;
+    padding: 0.5rem 0.3rem 0rem 0.3rem;
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 1rem;
+  }
+.contact-container figcaption figure aside span{
+    display: none;
+    font-size: 14px;
+}
+.contact-container figcaption figure aside p:hover {
+    color: var(--golden-color);
+    border: 2px solid var(--golden-color);
+}
+.contact-container figcaption figure aside p:hover > span {
+    display: inline-block;
+}
+@media screen and (max-width:500px) { 
+  .contact-container .heading {
+    font-size: 10vmin;
+  }
+  .contact-container .heading h1 {
+    font-size: 6vmin;
+    bottom: 18%;
+    right: 24%;
+  }
+  .contact-container figcaption {
+    width: 100%;
+  }
+  .contact-container form {
+    width: 100%;
+    padding: 0%;
+  }
+  .contact-container input,textarea {
+    width: 100%;
+  }
+  .contact-container form section {
+    grid-template-columns: 100%;
+  }
+  .contact-container figcaption {
+    padding: 1rem 0.5rem;
+  }
+  .contact-container .title {
+    width: 100%;
+    padding: 14px 5px;
+  }
+  .contact-container figure section{
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .contact-container figure section div {
+    width: 100%;
+  }
+  .contact-container figcaption {
+    flex-direction: column-reverse;
+}
+.contact-container button {
+  width: 100%;
+}
+ 
+}
+
+@media screen and (min-width:500px) and (max-width:1024px){
+  .contact-container figcaption,input,textarea {
+    width: 100%;
+  }
+  .contact-container figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact-container form {
+    width: 80%;
+    padding: 2rem 1rem;
+  }
+  .contact-container form section {
+    grid-template-columns: 100%;
+  }
+  .contact-container form section {
+    grid-template-columns: 46% 50%;
+  } 
+  .contact-container .title {
+    width: 100%;
+  }
+  .contact-container figcaption {
+    flex-direction: column-reverse;
+  }
+  .contact-container figure {
+    width: 80%;
+  }
+.contact-container figure section div {
+  width: 100%;
+}
+}
+
+/* <-------- footer ----> */
+footer {
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: black;
+  width: 100%;
+}

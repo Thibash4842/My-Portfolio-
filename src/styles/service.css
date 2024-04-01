@@ -1,0 +1,68 @@
+.service-container {
+    width: 100%;
+    min-height: 100%;
+    padding: 4% 3%;        
+}
+.service-container figcaption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    row-gap: 4rem;
+}
+.service-container .heading {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-size: 6cqmax;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+    position: relative;
+}
+.service-container .heading h1 {
+    bottom: 20%;
+    right: 39%;
+}
+
+.service-container article {
+    text-align: center;
+    flex-grow: 0.2;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    color: var(--light-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid var(--gray-color);
+    background-color: rgba(0, 0, 0, 0.267);
+    box-shadow: 0px 0px 14px 4px black;
+    border-radius: 20px;
+    padding: 1rem;
+    transition: all 2s;
+}
+.service-container article:hover {
+    background-image: linear-gradient(var(--golden-color), var(--gray-color));
+    cursor: pointer;
+    color: black;
+    transform: translateY(-1rem);
+}
+
+.service-container .design {
+    font-size: 80px;
+}
+.service-container p {
+    font-size: 20px;
+}
+@media screen and (max-width:500px) {
+    .service-container .heading {
+      font-size: 13vmin;
+    }
+    .service-container .heading h1 {
+      font-size: 8vmin;
+      right: 25%;
+      bottom: 17.5%;
+    }
+}
