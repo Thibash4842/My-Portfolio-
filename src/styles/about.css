@@ -399,7 +399,9 @@
 .grade {
     font-size: 35px;
 }
-
+.education-container section > h1 {
+    gap: 2px;
+}
 }
 @media screen and (min-width:500px) and (max-width:800px) {
     .about-container .details {
