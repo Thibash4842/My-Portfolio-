@@ -75,6 +75,9 @@
 .nav-container a:hover::before {
     transform: scaleX(1);
 }
+/* .nav-container .active {
+    color: green;
+} */
 .nav-container button a {
     text-decoration: none;
     color: var(--golden-color);

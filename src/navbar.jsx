@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, {useEffect, useState } from "react";
 import "./styles/nav.css";
 import { SiCodesignal } from "react-icons/si";
 import { FaBars } from "react-icons/fa";
@@ -9,7 +9,6 @@ const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
     // nav  scrolling change color
-
         return (
             <nav className="nav-container">  
                 <div>
@@ -20,7 +19,7 @@ const Navbar = () => {
                     {click ? (<IoMdClose className="close" />) : (<FaBars className="menu" />)}
                 </label>
                 <div className="page">
-                    <a href="#home" className="link">HOME</a>
+                    <a href="#home" className="link active">HOME</a>
                     <a href="#about" className="link">ABOUT ME</a>
                     <a href="#project" className="link">PROJECTS</a>
                     <a href="#service" className="link">SERVICE</a>

@@ -1,3 +1,4 @@
+
 // import React, { Component } from "react";
 import './styles/about.css';
 import Thibash from "./images/tptk.jpg";

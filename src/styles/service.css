@@ -65,4 +65,8 @@
       right: 25%;
       bottom: 17.5%;
     }
+    .service-container article {
+        width: 300px;
+        height: 350px;
+    }
 }

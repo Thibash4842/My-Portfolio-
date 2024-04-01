@@ -328,7 +328,11 @@
     }
     .education-container hr{
         display: none;
-    }   
+    }  
+    .education-container article section {
+        width: 300px;
+        height: 350px;
+    } 
     .about-container .abt-image section {
         width: 270px;
         height: 270px;
