@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from "react";
+import React, {useState } from "react";
 import "./styles/nav.css";
 import { SiCodesignal } from "react-icons/si";
 import { FaBars } from "react-icons/fa";

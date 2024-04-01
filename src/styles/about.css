@@ -329,10 +329,7 @@
     .education-container hr{
         display: none;
     }  
-    .education-container article section {
-        width: 300px;
-        height: 350px;
-    } 
+
     .about-container .abt-image section {
         width: 270px;
         height: 270px;
@@ -394,22 +391,15 @@
         right: 21%;
     }
     .education-container article section {
-    width: 300px;
-    height: 300px;
-    flex-grow: 0.5;
-    padding: 2rem 1.5rem;
-    border-radius: 10px;
-    color: var(--light-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    gap: 15%;
-    position: relative;
-    border: 8px double white;
-    box-shadow: 0px 0px 10px 8px black;
+    height: 320px;
+    gap: 0.5rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
 }
+.grade {
+    font-size: 35px;
+}
+
 }
 @media screen and (min-width:500px) and (max-width:800px) {
     .about-container .details {
