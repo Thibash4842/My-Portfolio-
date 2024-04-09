@@ -1,49 +1,32 @@
-import React, { Component } from "react";
+import React, { useRef } from "react";
 import './styles/contact.css';
 import { AiOutlineCheckCircle, AiOutlineExclamationCircle } from "react-icons/ai";
 import { FaUser, FaPhoneAlt} from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaGithubSquare,  FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
+import emailjs from '@emailjs/browser';
 
+const Contact = () =>{
+    const form = useRef();
 
-export default class Contact extends Component {
-    render() {
-//         let id = (id) => document.getElementById(id);
-//         let classes = (classes) => document.getElementsByClassName(classes);
-
-//     let username = id("username"),
-//     email = id("email"),
-//     subject =id("subject"),
-//     form = id("form"),
-
-//     errorMsg = classes("error"),
-//     successIcon = classes("success"),
-//     failureIcon = classes("failure");
-
-// let engine = (id, serial, message) =>{
-//     if(id.value.trim() === ""){
-//         errorMsg[serial].innerHTML=message;
-//         id.style.border="2px solid red";
-//         // icons
-//         failureIcon[serial].style.opacity="1";
-//         successIcon[serial].style.opacity="0";
-//     }else {
-//         errorMsg[serial].innerHTML="";
-//         id.style.border="2px solid green";
-//         // icons
-//         failureIcon[serial].style.opacity="0";
-//         successIcon[serial].style.opacity="1";
-//     }
-// }
-
-// form.addEventListener("submit",(e)=>{
-//     e.preventDefault();
-//     console.dir(e.target[0].value);
-//     engine(username,0,"Username cannot be blank");
-//     engine(email,1,"Email cannot be blank");
-// });
-
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_3mhl27y', 'template_uq9rlrs', form.current, {
+          publicKey: 'rD_Qxmh7BLYZOYPIO',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
+  
         return (
             <>
             <main id="contact" className="contact-container">
@@ -137,5 +120,6 @@ export default class Contact extends Component {
             </footer>
             </>
         )
-    }
+    
 }
+export default Contact;
