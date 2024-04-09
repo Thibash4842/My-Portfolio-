@@ -62,7 +62,7 @@ const Contact = () =>{
                             </aside>
                         </section>
                     </figure>
-                    <form id="form">
+                    <form id="form" ref={form} onSubmit={sendEmail}>
                         <h1>Just say Hello</h1>
                         <section>
                         <div>
