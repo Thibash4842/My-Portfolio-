@@ -3,6 +3,7 @@ import './styles/project.css';
 import Men from './images/men.jpg';
 import Tour from './images/tour.jpg';
 import Portfolio from './images/Portfolio-Desk.jpg'
+import fruits from './images/fruits.jpg';
 export default class Project extends Component {
     render() {
         return (
@@ -64,6 +65,25 @@ export default class Project extends Component {
                             <div>
                                 <h1>Portfolio website</h1>
                                 <p>Technology : HTML, CSS, JS and React</p>
+                                <p>Web desingn<button>Hover this card</button></p>
+                            </div>
+
+                        </figure>
+                    </section>
+                    <section>
+                        <div>
+                            <img src={fruits} alt="portfolio.img" />
+                        </div>
+                        <aside>
+                            <div>
+                                <p>Your visit this website</p>
+                                <button><a href="https://thibash4842addtocats.netlify.app/" title="project link">Click Me</a></button>
+                            </div>
+                        </aside>
+                        <figure>
+                            <div>
+                                <h1>AddToCarts website</h1>
+                                <p>Technology : React Framework</p>
                                 <p>Web desingn<button>Hover this card</button></p>
                             </div>
 

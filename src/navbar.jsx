@@ -1,6 +1,5 @@
 import React, {useState } from "react";
 import "./styles/nav.css";
-import { SiCodesignal } from "react-icons/si";
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 
@@ -12,7 +11,7 @@ const Navbar = () => {
         return (
             <nav className="nav-container">  
                 <div>
-                    <h2 className="user"><SiCodesignal className="logo"/> Thibash. TP</h2>
+                    <h2 className="user">Thibash TP</h2>
                 </div>
                 <input type="checkbox" id="menubar" />
                 <label for="menubar" className="burger-menu" onClick={handleClick}>

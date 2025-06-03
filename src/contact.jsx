@@ -44,7 +44,7 @@ const Contact = () =>{
                         <section>
                             <div>
                                 <h2><IoMdMail/> Email</h2>
-                                <p>projecttp4248@gmail.com</p>
+                                <p>thibashthirumalai@gmail.com</p>
                             </div>
                             <div>
                                 <h2><FaPhoneAlt/> Phone</h2>
@@ -52,7 +52,7 @@ const Contact = () =>{
                             </div>
                             <div>
                                 <h2><FaLocationDot /> Address</h2>
-                                <p>Velachery, Chennai-600 042</p>
+                                <p>Villupuram - 605 755,TN</p>
                             </div>
                             <aside>
                                 <h4>Visite my social profile and get connected</h4>

@@ -1,12 +1,17 @@
 
 // import React, { Component } from "react";
 import './styles/about.css';
-import Thibash from "./images/tptk.jpg";
+import Thibash from "./images/thibash.jpg";
 import Html from './images/HTML5.png';
 import Css from './images/CSS3_logo.svg.png';
 import Bootstrap from './images/bootstrap-5-logo-icon.webp';
 import JavaScript from './images/javascript-logo.svg';
+import JQuery from './images/JQuery.png';
 import Rreact from './images/React.webp';
+import Java from './images/java-icon-png.jpg';
+import Spring from './images/spring-boot-logo.png';
+import Mysql from './images/Mysql.png';
+import git from './images/git-icon-logo-png.png';
 import { FaGraduationCap } from "react-icons/fa6";
 import { FaCertificate } from "react-icons/fa";
 import CountUp from 'react-countup';
@@ -31,8 +36,8 @@ const About =()=> {
                                 <div>
                                     <img src={Thibash} alt="thibash.img" />
                                     <aside>
-                                        <h2>THIBASH</h2>
-                                        <p>FRONT - END DEVELOPER</p>
+                                        <h2>THIBASH T</h2>
+                                        <p>JAVA FULL STACK DEVELOPER</p>
                                         <a href="#contact"><button>CONTACT ME</button></a>
                                     </aside>
                                 </div>
@@ -45,22 +50,22 @@ const About =()=> {
                                     <tr>
                                         <td>Name</td>
                                         <td> : </td>
-                                        <td>Thibash</td>
+                                        <td>Thibash T</td>
                                     </tr>
                                     <tr>
                                         <td>Age</td>
                                         <td> : </td>
-                                        <td>22</td>
+                                        <td>23</td>
                                     </tr>
                                     <tr>
                                         <td>E-mail</td>
                                         <td> : </td>
-                                        <td>projcttp4248@gmail.com</td>
+                                        <td>thibashthirumalai@gmail.com</td>
                                     </tr>
                                     <tr>
                                         <td>Address</td>
                                         <td> : </td>
-                                        <td>Sennakunam, Villupuram(District) - 605 755</td>
+                                        <td>Villupuram(District) - 605 755, Tamil Nadu</td>
                                     </tr>
                                     <tr>
                                         <td>Freelence</td>
@@ -70,7 +75,7 @@ const About =()=> {
                                     <tr>
                                         <td>Skill</td>
                                         <td> : </td>
-                                        <td>Front-end developer</td>
+                                        <td>Java Full Stack developer</td>
                                     </tr>
                                 </table>
                                 <h1>LANGUAGE</h1>
@@ -95,6 +100,7 @@ const About =()=> {
                                 <li>Sincerity and punctuallity</li>
                                 <li>problem-solving skills</li>
                                 <h1>HOBBIES</h1>
+                                <li>Coding side projects</li>
                                 <li>Photo and Video editing</li>
                                 <li>Travelling and listening music</li>
                             </ul>
@@ -102,7 +108,7 @@ const About =()=> {
                     </figcaption>
                     <aside className="course">
                         <h1> <FaCertificate/> CERTIFICATE</h1>
-                        <h2>Front-End Course</h2>
+                        <h2>Java Full Stack Course</h2>
                         <p>Login 360 Technology - Velachery</p>
                     </aside>
                 </main>
@@ -133,15 +139,6 @@ const About =()=> {
                         </ScrollTrigger>
                         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
-                            <img src={Bootstrap} alt="bootstrap.png" />
-                            <h1 class="skill2">BOOTSTRAP</h1>
-                            <div class="boot">
-                                {counterOn && <CountUp start={0} end={98} duration={2} delay={0}/>}%
-                            </div>
-                        </figure>
-                        </ScrollTrigger>
-                        <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
-                        <figure>
                             <img src={JavaScript} alt="js.png" />
                             <h1 class="skill3">JAVA SCRIPT</h1>
                             <div class="js">
@@ -151,10 +148,64 @@ const About =()=> {
                         </ScrollTrigger>
                         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
+                            <img src={JQuery} alt="js.png" />
+                            <h1 class="skill5">JQuery</h1>
+                            <div class="jquery">
+                                {counterOn && <CountUp start={0} end={80} duration={2} delay={0}/>}%
+                            </div>
+                        </figure>
+                        </ScrollTrigger>
+                        <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+                        <figure>
+                            <img src={Bootstrap} alt="bootstrap.png" />
+                            <h1 class="skill2">BOOTSTRAP</h1>
+                            <div class="boot">
+                                {counterOn && <CountUp start={0} end={98} duration={2} delay={0}/>}%
+                            </div>
+                        </figure>
+                        </ScrollTrigger>
+                        <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+                        <figure>
                             <img src={Rreact} alt="react.png" />
                             <h1 class="skill4">REACT</h1>
                             <div class="react">
                                 {counterOn && <CountUp start={0} end={80} duration={2} delay={0}/>}%
+                            </div>
+                        </figure>
+                        </ScrollTrigger>
+                        <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+                        <figure>
+                            <img src={Java} alt="react.png" />
+                            <h1 class="skill5">Java</h1>
+                            <div class="jquery">
+                                {counterOn && <CountUp start={0} end={96} duration={2} delay={0}/>}%
+                            </div>
+                        </figure>
+                        </ScrollTrigger>
+                        <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+                        <figure>
+                            <img src={Spring} alt="react.png" />
+                            <h1 class="skill6">SpringBoot</h1>
+                            <div class="spring">
+                                {counterOn && <CountUp start={0} end={89} duration={2} delay={0}/>}%
+                            </div>
+                        </figure>
+                        </ScrollTrigger>
+                        <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+                        <figure>
+                            <img src={Mysql} alt="react.png" />
+                            <h1 class="skill5">MYSQL</h1>
+                            <div class="jquery">
+                                {counterOn && <CountUp start={0} end={94} duration={2} delay={0}/>}%
+                            </div>
+                        </figure>
+                        </ScrollTrigger>
+                        <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+                        <figure>
+                            <img src={git} alt="react.png" />
+                            <h1>Git</h1>
+                            <div>
+                                {counterOn && <CountUp start={0} end={95} duration={2} delay={0}/>}%
                             </div>
                         </figure>
                         </ScrollTrigger>

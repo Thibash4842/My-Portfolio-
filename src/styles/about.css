@@ -219,12 +219,26 @@
 .skills-container figure:hover .skill3 {
     color: rgb(255, 230, 0);
 }
+.skills-container figure .jquery {
+    background-color: rgba(0, 123, 255, 0.416);
+    border: 8px solid rgb(6, 93, 151);
+}
+.skills-container figure:hover .skill5 {
+    color: rgb(6, 93, 151);
+}
 .skills-container figure .react {
     background-color: rgba(0, 206, 209, 0.389);
     border: 8px solid darkturquoise;
 }
 .skills-container figure:hover .skill4 {
     color: darkturquoise;
+}
+.skills-container figure .spring {
+    background-color: rgba(0, 209, 42, 0.389);
+    border: 8px solid rgb(1, 186, 60);
+}
+.skills-container figure:hover .skill6 {
+    color: rgb(1, 186, 60);
 }
 .skills-container article figure p {
     margin-top: 3.5rem;

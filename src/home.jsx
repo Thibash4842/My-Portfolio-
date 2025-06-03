@@ -2,20 +2,19 @@ import React, { Component } from "react";
 import "./styles/home.css";
 import Thibash from "./images/imagetp.jpg";
 import Navbar from "./navbar";
-import Resume from "./images/resume.pdf";
+import Resume from "./images/ThibashFull Stack Resume.pdf";
 import { FaUserGraduate, FaDownload, FaGithubSquare,  FaLinkedin, FaWhatsappSquare, FaInstagramSquare } from "react-icons/fa";
 
 export default class Home extends Component {
     render() {
         return (
             <main id="home" className="Overall-container">
-                <Navbar/>
+                {/* <Navbar/> */}
                 <main className="home-container">
                     <article className="home-content">
                         <h1> Hello, I'm Thibash </h1>
-                        <h3> I am a Java Full Stack Developer</h3>
-                        <p> As a recent graduate, I am seeking a role which allows me to continue learning and perfecting my
-                            skills as I provide high-quality work, and encourages me to flourish as a network technician.
+                        <h3> I am Java Full Stack Developer</h3>
+                        <p> I am a Java Full Stack Developer with experience building scalable and high-performance applications. Proficient in Java SE/EE, Spring Boot, Hibernate, React, and MySQL. I love creating user-friendly interfaces and writing clean, efficient code.
                         </p>
                         <div>
                             <a href="#contact"><button className="hire"> Hire Me <FaUserGraduate/></button></a>

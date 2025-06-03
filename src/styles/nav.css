@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 .nav-container {
     width: 90%;
     position: absolute;
@@ -29,14 +29,12 @@
         opacity:1;
     }
 }
-.nav-container .user > .logo {
-    position: relative;
-    top:4px;
-}
 
 .nav-container .user {
-    font-family: "Yesteryear", cursive;
-    font-weight: bold;
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
     animation: user 1 2s ease;
 }
 @keyframes user {
