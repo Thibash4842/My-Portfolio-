@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./styles/home.css";
-import Thibash from "./images/imagetp.jpg";
+import Thibash from "./images/thibash01.jpg";
 import Navbar from "./navbar";
-import Resume from "./images/ThibashFull Stack Resume.pdf";
+import Resume from "./images/Thibash Full Stack Resume.pdf";
 import { FaUserGraduate, FaDownload, FaGithubSquare,  FaLinkedin, FaWhatsappSquare, FaInstagramSquare } from "react-icons/fa";
 
 export default class Home extends Component {

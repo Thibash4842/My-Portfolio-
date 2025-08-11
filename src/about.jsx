@@ -1,7 +1,7 @@
 
 // import React, { Component } from "react";
 import './styles/about.css';
-import Thibash from "./images/thibash.jpg";
+import Thibash from "./images/thibash02.png";
 import Html from './images/HTML5.png';
 import Css from './images/CSS3_logo.svg.png';
 import Bootstrap from './images/bootstrap-5-logo-icon.webp';
