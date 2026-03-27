@@ -61,7 +61,7 @@
     color: var(--light-color);
     font-size: 16px;
     border: 2px ridge #c4c4c4;
-    padding: 0.6rem 2rem;
+    padding: 0.6rem 2rem 0.6rem 1rem;
     background: transparent;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -89,11 +89,14 @@
     flex-direction: column;
     gap: 30px;
   }
-  .contact-container figure section div {
+  .contact-container figure section div,
+  .contact-container figure section .contact-box {
     width: 100%;
     background-color: white;
     padding: 1rem;
     border-radius: 8px;
+    text-decoration: none;
+    color: #000;
   }
  .contact-container input:focus,textarea:focus {
     border: 2px solid var(--golden-color);
@@ -134,13 +137,15 @@
   .contact-container button:hover {
     opacity: 0.8;
   }
-  .contact-container figcaption figure section div > h2 {
+  .contact-container figcaption figure section div > h2,
+  .contact-container figcaption figure section .contact-box > h2 {
     font-size: 18px;
+    display: flex;
+    align-items: center;
   }
-  .contact-container figcaption figure section div > p {
-    font-size: 15px;
-  }
-  .contact-container figcaption figure section div:hover {
+
+  .contact-container figcaption figure section div:hover,
+  .contact-container figcaption figure section .contact-box:hover {
     color: var(--golden-color);
   }
   .contact-container figcaption figure aside > h4{

@@ -41,21 +41,21 @@ export default class Service extends Component {
                             <MdAppSettingsAlt className="design"/>
                             <h1>App Design</h1>
                         </div>
-                        <p>In the web application design process, users are the top priority. It focuses on the following: How users interact with the web app. Whether the app meets user needs ...</p>
+                        <p>In the web application design process, users are the top priority. It focuses on the following: How users interact with the web app.</p>
                     </article>
                     <article>
                         <div>
                             <FaLaptopCode className="design"/>
                             <h1>Web Application</h1>
                         </div>
-                        <p>A web application web app is an application program that is stored on a remote server and delivered over the internet through a browser interface. Web ...</p>
+                        <p>A web application web app is an application program that is stored on a remote server and delivered over the internet through a browser interface.</p>
                     </article>
                     <article>
                         <div>
                             <BiSolidColor className="design"/>
                             <h1>UI/UX</h1>
                         </div>
-                        <p>UI design involves the look of a product — namely, the visual components and interactive elements that contribute to a strong user experience. Meanwhile, UX ...</p>
+                        <p>UI design involves the look of a product — namely, the visual components and interactive elements that contribute to a strong user experience.</p>
                     </article>
                 </figcaption>
             </main>

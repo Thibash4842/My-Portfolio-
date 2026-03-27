@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./styles/home.css";
 import Thibash from "./images/thibash01.jpg";
-import Navbar from "./navbar";
-import Resume from "./images/Thibash Full Stack Resume.pdf";
+// import Navbar from "./navbar";
+import Resume from "./images/Thibash FullStack Resume.pdf.pdf";
 import { FaUserGraduate, FaDownload, FaGithubSquare,  FaLinkedin, FaWhatsappSquare, FaInstagramSquare } from "react-icons/fa";
 
 export default class Home extends Component {
@@ -21,10 +21,10 @@ export default class Home extends Component {
                             <a href={Resume} download><button className="resume"> Download CV <FaDownload/></button></a>
                         </div>
                         <aside>
-                            <a href="https://github.com/Thibash4842" target="_blank"><FaGithubSquare className="icon"/></a>
-                            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank"><FaLinkedin className="icon"/></a>
-                            <a href=""><FaWhatsappSquare className="icon"/></a>
-                            <a href="https://www.instagram.com/lovely_4842_official/" target="_blank"><FaInstagramSquare className="icon"/></a>
+                            <a href="https://github.com/Thibash4842" target="_blank" rel="noopener noreferrer"><FaGithubSquare className="icon"/></a>
+                            <a href="https://www.linkedin.com/in/thibash-t-578427299/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="icon"/></a>
+                            <a href="https://wa.me/91887000991" target="_blank" rel="noopener noreferrer"><FaWhatsappSquare className="icon"/></a>
+                            <a href="https://www.instagram.com/lovely_4842_official/" target="_blank" rel="noopener noreferrer"><FaInstagramSquare className="icon"/></a>
                         </aside>
                         <figure className="shape"></figure>
                         <div className="square"></div>
@@ -32,8 +32,8 @@ export default class Home extends Component {
                     <article className="home-image">
                         <aside>
                             <img src={Thibash} alt="thibash.img" />
-                            <div class="top box"></div>
-                            <div class="bot box"></div>
+                            <div className="top box"></div>
+                            <div className="bot box"></div>
                         </aside>
                     </article>
                 </main>

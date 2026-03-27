@@ -107,14 +107,18 @@
 }
 
 /* media query for responsive navigation bar */
-@media screen and (max-width:970px){
+@media screen and (max-width:1045px){
     .nav-container label {
         display:inline-block;
         font-size: 25px;
         font-weight: bold;
     }
+    .burger-menu {
+        margin-top: 8px;
+    }
     .close {
-        color: white;
+        color: var(--light-color);
+        font-size: 30px;
         transition: all 1s linear;
         animation: close 0.24s linear 1;
     }
@@ -127,7 +131,9 @@
         }
     }
     .menu {
-        color: black;
+        color: var(--light-color);
+        font-size: 30px;
+
     }
      .nav-container input:checked ~.page{
         left:0;
@@ -137,7 +143,7 @@
     }
     .nav-container .page{
         position: absolute;
-        top: 58px;
+        top: 70px;
         left: -150%;
         width: 100%;
         height: 80vh;

@@ -27,8 +27,8 @@
 
 .service-container article {
     text-align: center;
-    flex-grow: 0.2;
-    width: 300px;
+    flex-grow: 1;
+    width: clamp(300px, 80%, 400px);
     height: 300px;
     display: flex;
     color: var(--light-color);
@@ -53,6 +53,7 @@
 .service-container .design {
     font-size: 80px;
 }
+
 .service-container p {
     font-size: 20px;
 }
@@ -67,6 +68,7 @@
     }
     .service-container article {
         width: 300px;
-        height: 350px;
+        height: 360px;
+        padding: 10px;
     }
 }

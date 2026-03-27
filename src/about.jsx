@@ -44,7 +44,7 @@ const About =()=> {
                             </section>
                         </article>
                         <article className="details">
-                            <ul class="info">
+                            <ul className="info">
                                 <h1>PERSONAL INFO</h1>
                                 <table>
                                     <tr>
@@ -70,7 +70,7 @@ const About =()=> {
                                     <tr>
                                         <td>Freelence</td>
                                         <td> : </td>
-                                        <td>Avoilable</td>
+                                        <td>Available</td>
                                     </tr>
                                     <tr>
                                         <td>Skill</td>
@@ -109,8 +109,11 @@ const About =()=> {
                     <aside className="course">
                         <h1> <FaCertificate/> CERTIFICATE</h1>
                         <h2>Java Full Stack Course</h2>
-                        <p>Login 360 Technology - Velachery</p>
+                        <p>Login 360 Technology</p><br/>
+                        <h2>Java Full Stack Intern</h2>
+                        <p>INMAKES INFOTECH PVT LTD</p>
                     </aside>
+                    
                 </main>
 
                 <main className="skills-container">
@@ -131,8 +134,8 @@ const About =()=> {
                             <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
                             <img src={Css} alt="css.png" />
-                            <h1 class="skill1">CSS</h1>
-                            <div class="css">
+                            <h1 className="skill1">CSS</h1>
+                            <div className="css">
                                 {counterOn && <CountUp start={0} end={98} duration={2} delay={0}/>}%
                             </div>
                         </figure>
@@ -140,8 +143,8 @@ const About =()=> {
                         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
                             <img src={JavaScript} alt="js.png" />
-                            <h1 class="skill3">JAVA SCRIPT</h1>
-                            <div class="js">
+                            <h1 className="skill3">JAVA SCRIPT</h1>
+                            <div className="js">
                                 {counterOn && <CountUp start={0} end={89} duration={2} delay={0}/>}%
                             </div>
                         </figure>
@@ -149,8 +152,8 @@ const About =()=> {
                         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
                             <img src={JQuery} alt="js.png" />
-                            <h1 class="skill5">JQuery</h1>
-                            <div class="jquery">
+                            <h1 className="skill5">JQuery</h1>
+                            <div className="jquery">
                                 {counterOn && <CountUp start={0} end={80} duration={2} delay={0}/>}%
                             </div>
                         </figure>
@@ -158,8 +161,8 @@ const About =()=> {
                         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
                             <img src={Bootstrap} alt="bootstrap.png" />
-                            <h1 class="skill2">BOOTSTRAP</h1>
-                            <div class="boot">
+                            <h1 className="skill2">BOOTSTRAP</h1>
+                            <div className="boot">
                                 {counterOn && <CountUp start={0} end={98} duration={2} delay={0}/>}%
                             </div>
                         </figure>
@@ -167,8 +170,8 @@ const About =()=> {
                         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
                             <img src={Rreact} alt="react.png" />
-                            <h1 class="skill4">REACT</h1>
-                            <div class="react">
+                            <h1 className="skill4">REACT</h1>
+                            <div className="react">
                                 {counterOn && <CountUp start={0} end={80} duration={2} delay={0}/>}%
                             </div>
                         </figure>
@@ -176,8 +179,8 @@ const About =()=> {
                         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
                             <img src={Java} alt="react.png" />
-                            <h1 class="skill5">Java</h1>
-                            <div class="jquery">
+                            <h1 className="skill5">Java</h1>
+                            <div className="jquery">
                                 {counterOn && <CountUp start={0} end={96} duration={2} delay={0}/>}%
                             </div>
                         </figure>
@@ -185,8 +188,8 @@ const About =()=> {
                         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
                             <img src={Spring} alt="react.png" />
-                            <h1 class="skill6">SpringBoot</h1>
-                            <div class="spring">
+                            <h1 className="skill6">SpringBoot</h1>
+                            <div className="spring">
                                 {counterOn && <CountUp start={0} end={89} duration={2} delay={0}/>}%
                             </div>
                         </figure>
@@ -194,8 +197,8 @@ const About =()=> {
                         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                         <figure>
                             <img src={Mysql} alt="react.png" />
-                            <h1 class="skill5">MYSQL</h1>
-                            <div class="jquery">
+                            <h1 className="skill5">MYSQL</h1>
+                            <div className="jquery">
                                 {counterOn && <CountUp start={0} end={94} duration={2} delay={0}/>}%
                             </div>
                         </figure>
@@ -223,16 +226,16 @@ const About =()=> {
                                 <h1> <FaGraduationCap className='grade'/><span>2020 - 2023</span> </h1>
                                 <figure>
                                     <h2> Bachelor of Science in Computer Science </h2>
-                                    <h3> Saraswathy College of Arts and Science - Tindivanam <br></br> Thiruvalluvar University - Vellore</h3>
-                                    <h2> 80% </h2>
+                                    <h4> Saraswathy College of Arts and Science - Tindivanam <br></br> Thiruvalluvar University - Vellore</h4>
+                                    <h2> 7.9 CGPA </h2>
                                 </figure>
                             </section>
                             <section>
-                                <div className="line"></div>
+                                <div classNameName="line"></div>
                                 <h1> <FaGraduationCap className='grade'/><span>2019 - 2020</span> </h1>
                                 <figure>
                                     <h2> Higher Secondary Certificate </h2>
-                                    <h3> Government Higher Secondary School - Mambalapattu </h3>
+                                    <h4> Government Higher Secondary School - Mambalapattu </h4>
                                     <h2> 60% </h2>
                                 </figure>
                             </section>
@@ -241,7 +244,7 @@ const About =()=> {
                                 <h1> <FaGraduationCap className='grade'/><span>2017 - 2018</span> </h1>
                                 <figure>
                                     <h2> Secondary School Leaving Certificate </h2>
-                                    <h3> Government High School - Sennakunam </h3>
+                                    <h4> Government High School - Sennakunam </h4>
                                     <h2> 77% </h2>
                                 </figure>
                             </section>

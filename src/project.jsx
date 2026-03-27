@@ -20,12 +20,12 @@ export default class Project extends Component {
                         <aside>
                             <div>
                                 <p>Your visit this website</p>
-                                <button><a href="https://thibash4842.github.io/E-Commerce-Website-men/" title="project link">Click Me</a></button>
+                                <button><a href="https://thibash4842.github.io/E-Commerce-Website-men/" title="project link" target="_blank" rel="noopener noreferrer">Click Me</a></button>
                             </div>
                         </aside>
                         <figure>
                             <div>
-                                <h1>Ecommerce website</h1>
+                                <h3>Ecommerce website</h3>
                                 <p>Technology : HTML and CSS</p>
                                 <p>Web desingn<button>Hover this card</button></p>
                             </div>
@@ -39,12 +39,12 @@ export default class Project extends Component {
                         <aside>
                             <div>
                                 <p>Your visit this website</p>
-                                <button><a href="https://git-soundhar.github.io/tourist-website/" title="project link">Click Me</a></button>
+                                <button><a href="https://git-soundhar.github.io/tourist-website/" title="project link" target="_blank" rel="noopener noreferrer">Click Me</a></button>
                             </div>
                         </aside>
                         <figure>
                             <div>
-                                <h1>Tourist website</h1>
+                                <h3>Tourist website</h3>
                                 <p>Technology : HTML and CSS</p>
                                 <p>Web desingn<button>Hover this card</button></p>
                             </div>
@@ -58,12 +58,12 @@ export default class Project extends Component {
                         <aside>
                             <div>
                                 <p>Your visit this website</p>
-                                <button><a href="#" title="project link">Click Me</a></button>
+                                <button><a href="myportfolio" title="project link">Click Me</a></button>
                             </div>
                         </aside>
                         <figure>
                             <div>
-                                <h1>Portfolio website</h1>
+                                <h3>Portfolio website</h3>
                                 <p>Technology : HTML, CSS, JS and React</p>
                                 <p>Web desingn<button>Hover this card</button></p>
                             </div>
@@ -77,12 +77,12 @@ export default class Project extends Component {
                         <aside>
                             <div>
                                 <p>Your visit this website</p>
-                                <button><a href="https://thibash4842addtocats.netlify.app/" title="project link">Click Me</a></button>
+                                <button><a href="https://thibash4842addtocats.netlify.app/" title="project link" target="_blank" rel="noopener noreferrer">Click Me</a></button>
                             </div>
                         </aside>
                         <figure>
                             <div>
-                                <h1>AddToCarts website</h1>
+                                <h3>AddToCarts website</h3>
                                 <p>Technology : React Framework</p>
                                 <p>Web desingn<button>Hover this card</button></p>
                             </div>
