@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleClick = () => setClick(!click)
     // nav  scrolling change color
         return (
-            <nav id="myportfolio" className="nav-container">  
+            <nav className="nav-container">  
                 <div>
                     <h2 className="user">Thibash TP</h2>
                 </div>

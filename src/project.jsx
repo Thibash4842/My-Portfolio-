@@ -58,7 +58,7 @@ export default class Project extends Component {
                         <aside>
                             <div>
                                 <p>Your visit this website</p>
-                                <button><a href="myportfolio" title="project link">Click Me</a></button>
+                                <button><a href="#" title="project link">Click Me</a></button>
                             </div>
                         </aside>
                         <figure>
