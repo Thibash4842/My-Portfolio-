@@ -13,7 +13,7 @@ export default class Home extends Component {
                 <main className="home-container">
                     <article className="home-content">
                         <h1> Hello, I'm Thibash </h1>
-                        <h3> Full Stack Web Developer</h3>
+                        <h3> Full Stack Developer</h3>
                         <p> I am a Web Developer who enjoys creating modern, responsive, and user-friendly websites. I work with technologies like React, Java, Spring Boot, and MySQL to build complete web solutions from front-end to back-end.
                         </p>
                         <div>
