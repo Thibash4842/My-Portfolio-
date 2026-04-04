@@ -13,8 +13,8 @@ export default class Home extends Component {
                 <main className="home-container">
                     <article className="home-content">
                         <h1> Hello, I'm Thibash </h1>
-                        <h3> I am Java Full Stack Developer</h3>
-                        <p> I am a Java Full Stack Developer with experience building scalable and high-performance applications. Proficient in Java SE/EE, Spring Boot, Hibernate, React, and MySQL. I love creating user-friendly interfaces and writing clean, efficient code.
+                        <h3> Full Stack Web Developer</h3>
+                        <p> I am a Web Developer who enjoys creating modern, responsive, and user-friendly websites. I work with technologies like React, Java, Spring Boot, and MySQL to build complete web solutions from front-end to back-end.
                         </p>
                         <div>
                             <a href="#contact"><button className="hire"> Hire Me <FaUserGraduate/></button></a>
